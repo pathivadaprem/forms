@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+ <form action="file:///C:/Users/my%20pc/animation/animation.html?na=&numb=15&numbph=&em=&color=%23000000&pass=&link=" target="_blank" id="frm" name="forum" method="get" class="field">
+ <fieldset class="set">
+ <legend>Personal info</legend>
+ <div id="nam">
+ <label for="name">Name:</label>
+ <input type="text" name="na" id="name" placeholder="Enter your name"/>
+ </div>
+ <br>
+<div id="number">
+ <label for="num">Age:</label>
+ <input type="number" name="numb" id="num" min="15" max="80" value="10">
+ </div>
+<br>
+<div id="phnumber">
+ <label for="numph">Phone number:</label>
+ <input type="number" name="numbph" id="numph" minlength="10" maxlength="10">
+ </div>
+<br>
+ <div id="mail">
+ <label for="email">Email:</label>
+ <input type="email" name="em" id="email"> 
+ </div>
+<br>
+<div id="skills">
+ <label for="skill">Skills</label>
+ <input type="checkbox" name="skl" id="skill" value="html">HTML
+ <input type="checkbox" name="skl" id="skll" value="css">CSS
+ </div>
+<br>
+<div id="gender">
+ <label for="gen">Gender:</label>
+ <input type="radio" name="gend" id="gen" value="Male" /> Male
+ <input type="radio" name="gend" id="ge" value="Female" /> Female
+ </div>
+<br>
+<div>
+ <label for="clr">Color</label>
+ <input type="color" name="color" id="clr">
+ </div>
+ <input type="checkbox" name="html" id="html"><input type="checkbox" name="html" id="html">
+ <br>
+ <br>
+ <label for="pass">password:</label>
+ <input type="password" name="pass" id="pass">
+ <br>
+ <br>
+ <label for="url">linkdin</label>
+ <input type="url" name="link" id="url">
+<br><br>
+<input type="submit" value="apply">
+ </fieldset>
+</form>
+</body>
+</html>
